@@ -19,6 +19,13 @@ import re
 # -----------------------
 # 1) Inputs: query + docs
 # -----------------------
+QUERIES = {
+    1: "Impact of Advanced Cardiac Life Support courses on knowledge retention and competency in undergraduate medical education in the UK",
+    2: "Impact of first-pass defibrillation on survival and neurological outcome in out-of-hospital ventricular fibrillation.",
+    3: "Effect of glucose administration or hyperglycemia management on outcomes after cardiac arrest."
+}
+
+
 QUERY = (
     "Effect of structured ACLS training on skill retention and performance among medical students "
     "and early-career healthcare providers."
