@@ -41,19 +41,8 @@ def load_article_from_db(pmc_id, limit=1):
         
         query = f"""
         SELECT TOP ({limit}) 
-            [Id],
-            [Title],
             [Content],
-            [Keywords],
-            [PmcId],
-            [Processed],
-            [DateProcessed],
-            [IsFractured],
-            [FracturedReason],
-            [Confidence],
-            [LanguageCode],
-            [IsAnalyzed],
-            [ArticleSummary]
+            [PmcId]
         FROM [dhs].[DissertationArticles]
         WHERE [PmcId] = '{pmc_id}'
         """
