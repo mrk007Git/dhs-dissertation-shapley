@@ -4,6 +4,11 @@ numpy<2.3
 scipy
 scikit-learn
 matplotlib
+python-dotenv
+pandas
+SQLAlchemy
+pyodbc
+tqdm
 pandas
 pyodbc
 SQLAlchemy
