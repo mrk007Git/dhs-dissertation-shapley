@@ -10,7 +10,7 @@ load_dotenv()
 
 # Database connection settings
 DB_SERVER = os.getenv('DB_SERVER', 'your-server.database.windows.net')
-DB_DATABASE = os.getenv('DB_DATABASE', 'coromfieldguideportal-qa')
+DB_DATABASE = os.getenv('DB_DATABASE', 'your-database-name')
 DB_USERNAME = os.getenv('DB_USERNAME', 'your-username')
 DB_PASSWORD = os.getenv('DB_PASSWORD', 'your-password')
 DB_DRIVER = os.getenv('DB_DRIVER', 'ODBC Driver 17 for SQL Server')
